@@ -18,6 +18,7 @@ spec:
       name: grafana
       labels:
         app: grafana
+        type: deploy
     spec:
       containers:
         - name: grafana
